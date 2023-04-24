@@ -20,7 +20,8 @@ function formHasErrors(){
     }
 
     // validate phone number
-    const phone = document.getElementById("phone").value;
+    const phoneRawInput = document.getElementById("phone").value;
+    const phone = phoneRawInput.replace(/-|\s/g,"")
     if(phone.length < 1){
         const error = document.getElementById("phone_empty_error");
 		error.style.display = "block";
