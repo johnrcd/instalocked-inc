@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Insert Proper Page Here</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="shortcut icon" href="#" />
+    <script src="js/formValidation.js"></script>
+</head>
+<body>
+    <div id="pageWrapper">
+        <header>
+            <div id="banner">
+                <h1>Instalocked Inc.</h1>
+                <img src="images/company_logo.png" alt="image_description">
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="pageContent">
+            <form id="contactForm" action="index.html" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="phone">
+                            <p id="name_empty_error" class="form_error">
+                                Must have input
+                            </p>
+                        </li>
+                        <li>
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                            <p id="phone_empty_error" class="form_error">
+                                Must have input
+                            </p>
+                            <p id="phone_input_error" class="form_error">
+                                Invalid phone number given
+                            </p>
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                            <p id="email_empty_error" class="form_error">
+                                Must have input
+                            </p>
+                            <p id="email_input_error" class="form_error">
+                                Invalid email given
+                            </p>
+                        </li>
+                        <li>
+                            <label for="comments">Comments</label>
+                            <textarea id="comments" rows="4" cols="50"></textarea>
+                        </li>
+                        <button type="submit" id="submit">Submit</button>
+                        <button type="reset" id="reset">Reset</button>
+                    </ul>
+                    
+                </fieldset>
+            </form>
+        </div>
+        <hr>
+        <footer>
+            <nav id="footerNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p>Website created by Rovi Decena</p>
+        </footer>
+    </div>
+</html>
