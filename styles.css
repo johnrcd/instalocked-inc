@@ -24,6 +24,16 @@ p, li, h1, h2, h3, legend
 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+/* Force font sizes */
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 16px;
+}
 p{
     font-size: 14px;
 }
@@ -154,7 +164,7 @@ footer{
     #footerNav ul li a{
         color: #000000;
         padding: 5px 5px;
-        font-size: 12px;
+        font-size: 16px;
         text-align:center;
     }
     #footerNav ul li a:link, #mainNav ul li a:visited{
