@@ -123,6 +123,12 @@ body{
     color:red;
     font-weight:700;
 }
+
+input:focus, textarea:focus{
+    background-color: #146C94;
+    color: #F6F1F1;
+}
+
 /*
 footer{
     
